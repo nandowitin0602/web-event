@@ -15,12 +15,12 @@ function App() {
       <Navbar />
 
       {/* Content */}
-      {/* <Routes>
+      <Routes>
         <Route path="/" element={<Homepage />} />
         <Route path="/tentang-event" element={<Tentangpage />} />
         <Route path="/pembicara-event" element={<Pembicarapage />} />
         <Route path="/kontak-event" element={<Kontakpage />} />
-      </Routes> */}
+      </Routes>
 
       {/* Footer */}
       {/* <Footer /> */}
