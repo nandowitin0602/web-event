@@ -25,7 +25,7 @@ const Navbar = () => {
             </div>
             <div className={`menu flex gap-10 absolute md:static left-1/2 -translate-x-1/2 md:left-0 md:translate-x-0
             flex-col md:flex-row w-full md:w-auto text-center py-10 md:py-0 ${menuActive ? "top-16 opacity-100" : "-top-72 opacity-0"}
-            transition-all md:transition-none bg-white -z-10 md:z-10 md:opacity-100`}>
+            transition-all md:transition-none bg-white -z-10 md:z-0 md:opacity-100`}>
               <NavLink to={""}>Beranda</NavLink>
               <NavLink to={"/tentang-event"}>Tentang</NavLink>
               <NavLink to={"/pembicara-event"}>Pembicara</NavLink>
